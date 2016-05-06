@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+.prin {
+	color: #fff;
+	border: 1px solid #009999;
+	padding: 2em 0;
+	width: 88%;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+ 
+.formulario {
+	color: #212121;
+	text-align: center;
+}
+.formulario textarea[type=text] {
+	margin-bottom: 1em;
+	padding: 2em;
+	width: 100%;
+}
+.boton {
+	background: none;
+	border: 1px solid #009999;
+	color: #009999;
+	display: inline-block;
+	font-size: 1em;
+	padding: 1em;
+}
+.boton:hover {
+	border: 1px solid  #009999;
+}
+ 
+/* - Lista de Tareas - */
+.lista {
+	list-style: none;
+}
+ 
+.lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+li a {
+	color: #212121;
+	display: block;
+	padding: 1em 0;
+	text-decoration: none;
+}
+ 
+li a:hover {
+	text-decoration: line-through;
+}
+.fa {
+	margin-left: 65%;
+}
